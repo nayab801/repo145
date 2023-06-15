@@ -32,7 +32,7 @@ services:
 volumes:
      vol0005:
            name: vol0005
-           external: false
-     new_compose_vol:
+           external: true
+     vol888:
             name: vol888
             external: false

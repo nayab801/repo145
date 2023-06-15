@@ -22,7 +22,7 @@ pipeline {
          stage('push image') {
           
             steps {
-            bat 'sudo docker login -u nayab801 -p Rasool@801'
+            bat 'docker login -u nayab801 -p Rasool@801'
             bat 'docker push nayab801/compose_nginx_build:latest'
                // bat 'docker push nayab801/compose_nginx_build:latest'
             }
